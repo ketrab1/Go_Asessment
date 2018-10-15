@@ -10,6 +10,8 @@ namespace WebExperience.Test
         public static void Register(HttpConfiguration config)
         {
             config.MapHttpAttributeRoutes();
+            var cors = new System.Web.Http.Cors.EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(cors);
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

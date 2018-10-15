@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -8,17 +6,23 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Results;
 using System.Web.Mvc;
-using GeneralKnowledge.Test.App.Asset.Domain.Infrastructure;
+using AutoMapper;
+using GeneralKnowledge.Test.App.Domain.Model;
 using Newtonsoft.Json;
 using WebExperience.Test.Infrastructure;
-using GeneralKnowledge.Test.App.Asset.Domain.Model;
 using WebExperience.Test.Models;
 
 namespace WebExperience.Test.Controllers
 {
+    [System.Web.Http.Cors.EnableCors(origins: "*", headers: "*", methods: "*")]
     public class AssetController : ApiController
     {
         private readonly IAssetRepository _repository;
+
+        public AssetController()
+        {
+            
+        }
 
         public AssetController(IAssetRepository repository)
         {
@@ -26,16 +30,20 @@ namespace WebExperience.Test.Controllers
         }
 
         // GET: Assets
+        [System.Web.Http.HttpGet]
         public async Task<IHttpActionResult> Index()
         {
             var data = await _repository.GetAssets();
             if (data == null)
                 BadRequest();
 
-            return Ok(JsonConvert.SerializeObject(data));
+            var dto = data.Select(Mapper.Map<AssetDto>);
+
+            return Ok(JsonConvert.SerializeObject(dto));
         }
 
         // GET: Assets/Details/5
+        [System.Web.Http.HttpGet]
         public async Task<IHttpActionResult> Details(Guid id)
         {
             if (string.IsNullOrWhiteSpace(id.ToString()))
@@ -49,26 +57,17 @@ namespace WebExperience.Test.Controllers
                 return new NotFoundResult(this);
             }
 
-            return Ok(JsonConvert.SerializeObject(data));
+            var dto = Mapper.Map<Asset, AssetDto>(data);
+
+            return Ok(JsonConvert.SerializeObject(dto));
         }
 
-        // GET: Assets/Create
-        public HttpResponseMessage Create()
-        {
-            var newUrl = Url.Link("Default", new
-            {
-                Controller = "Asset",
-                Action = "Create"
-            });
-            return Request.CreateResponse(HttpStatusCode.OK, new {Success = true, RedirectUrl = newUrl});
-        }
-
-        [System.Web.Http.HttpPost]
+       
         [ValidateAntiForgeryToken]
+        [System.Web.Http.HttpPost]
         public async Task<IHttpActionResult> Create(
-            [Bind(Include = "AssetId,FileName,MimeType,CreatedBy,Country,Email,Description")]
-            AssetDto asset)
-        {
+            [FromBody] AssetDtoForCreation asset)
+       {
             if (ModelState.IsValid)
             {
                 await _repository.CreateAsync(asset);
@@ -78,10 +77,10 @@ namespace WebExperience.Test.Controllers
         }
 
 
-        [System.Web.Http.HttpPost]
+        [System.Web.Http.HttpPut]
         [ValidateAntiForgeryToken]
         public async Task<IHttpActionResult> Edit(
-            [Bind(Include = "AssetId,FileName,MimeType,CreatedBy,Country,Email,Description")]
+            [FromBody]
             AssetDto asset)
         {
             if (ModelState.IsValid)
@@ -92,9 +91,10 @@ namespace WebExperience.Test.Controllers
             return Ok();
         }
 
+
+        [System.Web.Http.HttpDelete]
         public async Task<IHttpActionResult> Delete(Guid id)
         {
-           
             if (string.IsNullOrWhiteSpace(id.ToString()))
             {
                 return BadRequest();

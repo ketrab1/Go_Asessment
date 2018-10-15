@@ -5,29 +5,15 @@
     <e p="C:\Users\Bartek\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_TechnicalAssessment.-1706779210.00" t="ExcludeRecursive" />
     <e p="C:\Users\Bartek\Desktop\go_assessment\GeneralKnowledge.Test" t="IncludeRecursive">
       <e p="App.config" t="Include" />
-      <e p="Asset.Domain.Infrastructure" t="Include">
-        <e p="AssetCSVReader.cs" t="Include" />
-        <e p="AssetRepository.cs" t="Include" />
-        <e p="CSVReader.cs" t="Include" />
-        <e p="IAssetRepository.cs" t="Include" />
-        <e p="ICSVReader.cs" t="Include" />
-        <e p="IRepository.cs" t="Include" />
-      </e>
-      <e p="Asset.Domain.Model" t="Include">
+      <e p="Bin" t="ExcludeRecursive" />
+      <e p="Domain.Model" t="Include">
         <e p="Asset.cs" t="Include" />
         <e p="Country.cs" t="Include" />
         <e p="MimeType.cs" t="Include" />
       </e>
-      <e p="Bin" t="ExcludeRecursive" />
-      <e p="Common.Domain" t="Include">
-        <e p="AggregateRoot.cs" t="Include" />
-        <e p="Entity.cs" t="Include" />
-        <e p="IAggregateRoot.cs" t="Include" />
-        <e p="IEntity.cs" t="Include" />
-        <e p="ValueObject.cs" t="Include" />
-      </e>
       <e p="GeneralKnowledge.Test.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
@@ -57,6 +43,7 @@
           <e p="IdentityConfig.cs" t="Include" />
           <e p="RouteConfig.cs" t="Include" />
           <e p="Startup.Auth.cs" t="Include" />
+          <e p="SwaggerConfig.cs" t="Include" />
           <e p="WebApiConfig.cs" t="Include" />
         </e>
         <e p="Bin" t="ExcludeRecursive" />
@@ -81,16 +68,26 @@
         <e p="Global.asax.cs" t="Include" />
         <e p="Infrastructure" t="Include">
           <e p="AssetDbContext.cs" t="Include" />
+          <e p="AssetRepository.cs" t="Include" />
+          <e p="AutoMapperConfig.cs" t="Include" />
+          <e p="IAssetRepository.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="201810131640416_Init.cs" t="Include" />
           <e p="201810131640416_Init.Designer.cs" t="Include" />
           <e p="201810131640416_Init.resx" t="Include" />
+          <e p="201810151755519_next.cs" t="Include" />
+          <e p="201810151755519_next.Designer.cs" t="Include" />
+          <e p="201810151755519_next.resx" t="Include" />
+          <e p="201810151805506_relations.cs" t="Include" />
+          <e p="201810151805506_relations.Designer.cs" t="Include" />
+          <e p="201810151805506_relations.resx" t="Include" />
           <e p="Configuration.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="AccountViewModels.cs" t="Include" />
           <e p="AssetDto.cs" t="Include" />
+          <e p="AssetDtoForCreation.cs" t="Include" />
           <e p="IdentityModels.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
@@ -118,6 +115,9 @@
           <e p="respond.min.js" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="system" t="Include">
+          <e p="Data" t="Include" />
+        </e>
         <e p="Views" t="Include">
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Account" t="Include">
