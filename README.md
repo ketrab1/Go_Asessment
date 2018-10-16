@@ -6,7 +6,7 @@ web developer
 
 
 Update npm modules
-`$ npm install 
+$ npm install 
 
 
 run GeneralKnowledge.Test
@@ -14,7 +14,7 @@ run GeneralKnowledge.Test
 
 To run angular app 
 type in  SPAClientApp
-`$ ng server --open
+$ ng serve --open
 
 
 
