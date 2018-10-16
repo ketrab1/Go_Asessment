@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bd9b0e0-af78-4d67-b061-7f6183c2783e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/TechnicalAssessment/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/TechnicalAssessment/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/TechnicalAssessment/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/TechnicalAssessment/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/TechnicalAssessment/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/TechnicalAssessment/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebExperience.Test/App_Data/WebExperience.Test.Infrastructure.AssetDbContext.mdf" beforeDir="false" afterPath="$PROJECT_DIR$/WebExperience.Test/App_Data/WebExperience.Test.Infrastructure.AssetDbContext.mdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebExperience.Test/App_Data/WebExperience.Test.Infrastructure.AssetDbContext_log.ldf" beforeDir="false" afterPath="$PROJECT_DIR$/WebExperience.Test/App_Data/WebExperience.Test.Infrastructure.AssetDbContext_log.ldf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebExperience.Test/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebExperience.Test/Global.asax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebExperience.Test/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebExperience.Test/Web.config" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-216317424">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="73" />
+          <entry key="csv" value="1" />
+          <entry key="js" value="1" />
+          <entry key="json" value="1" />
+          <entry key="ts" value="2" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="73" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="TypeScript" value="2" />
+          <entry key="XML" value="3" />
+          <entry key="tsconfig" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="2709" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="2709" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="Angular2LanguageService" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebExperience.Test/Controllers/AssetController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+              <folding>
+                <marker date="1539638073696" expanded="true" signature="6:27" ph="..." />
+                <marker date="1539638073696" expanded="true" signature="2398:2682" ph="{...}" />
+                <marker date="1539638073696" expanded="true" signature="2459:2676" ph="{...}" />
+                <marker date="1539638073696" expanded="true" signature="2527:2592" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebExperience.Test/Models/AssetDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <marker date="1539630960528" expanded="false" signature="6:104" ph="..." />
+                <marker date="1539630960528" expanded="true" signature="141:1007" ph="{...}" />
+                <marker date="1539630960528" expanded="true" signature="169:1005" ph="{...}" />
+                <marker date="1539630960528" expanded="true" signature="687:999" ph="{...}" />
+                <marker date="1539630960528" expanded="true" signature="973:988" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebExperience.Test/Infrastructure/AssetRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding>
+                <marker date="1539638620425" expanded="true" signature="6:87" ph="..." />
+                <marker date="1539638620425" expanded="true" signature="2339:2429" ph="{...}" />
+                <marker date="1539638620425" expanded="true" signature="2339:2435" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebExperience.Test/Infrastructure/IAssetRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <folding>
+                <marker date="1539621418625" expanded="true" signature="6:123" ph="..." />
+                <marker date="1539621418625" expanded="true" signature="168:426" ph="{...}" />
+                <marker date="1539621418625" expanded="true" signature="209:424" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebExperience.Test/Controllers/HomeController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1474788816000" expanded="true" signature="6:106" ph="..." />
+                <marker date="1474788816000" expanded="true" signature="195:582" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="237:284" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="321:437" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="476:576" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebExperience.Test/Controllers/AccountController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <marker date="1474788816000" expanded="true" signature="6:362" ph="..." />
+                <marker date="1474788816000" expanded="true" signature="470:19949" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="565:585" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="655:714" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="766:1021" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="783:921" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="945:1011" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="1031:1064" ph="/* GET: /Account/Login ... */" />
+                <marker date="1474788816000" expanded="true" signature="1141:1231" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="1241:1275" ph="/* POST: /Account/Login ... */" />
+                <marker date="1474788816000" expanded="true" signature="1440:2038" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="1486:1927" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="1619:1773" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="1794:1913" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="2048:2084" ph="/* GET: /Account/Register ... */" />
+                <marker date="1474788816000" expanded="true" signature="2148:2195" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="2205:2242" ph="/* POST: /Account/Register ... */" />
+                <marker date="1474788816000" expanded="true" signature="2395:3707" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="2441:3596" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="2684:3486" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="2790:3405" ph="/* For more information on how to enable account confirmation and password reset please visit http://go.microsoft ... */" />
+                <marker date="1474788816000" expanded="true" signature="3507:3582" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="3717:3757" ph="/* GET: /Account/ConfirmEmail ... */" />
+                <marker date="1474788816000" expanded="true" signature="3863:4304" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="3922:3988" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="4110:4183" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="4200:4294" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="4314:4356" ph="/* GET: /Account/ForgotPassword ... */" />
+                <marker date="1474788816000" expanded="true" signature="4426:4473" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="4483:4526" ph="/* POST: /Account/ForgotPassword ... */" />
+                <marker date="1474788816000" expanded="true" signature="4691:5910" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="4737:5799" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="4915:5091" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="5109:5785" ph="/* For more information on how to enable account confirmation and password reset please visit http://go.microsoft ... */" />
+                <marker date="1474788816000" expanded="true" signature="5920:5974" ph="/* GET: /Account/ForgotPasswordConfirmation ... */" />
+                <marker date="1474788816000" expanded="true" signature="6056:6103" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="6114:6155" ph="/* GET: /Account/ResetPassword ... */" />
+                <marker date="1474788816000" expanded="true" signature="6235:6379" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="6276:6342" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="6389:6431" ph="/* POST: /Account/ResetPassword ... */" />
+                <marker date="1474788816000" expanded="true" signature="6594:7432" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="6640:7321" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="6763:6902" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="7055:7176" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="7197:7307" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="7442:7495" ph="/* GET: /Account/ResetPasswordConfirmation ... */" />
+                <marker date="1474788816000" expanded="true" signature="7576:7623" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="7633:7674" ph="/* POST: /Account/Disassociate ... */" />
+                <marker date="1474788816000" expanded="true" signature="7823:8475" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="8058:8297" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="8314:8391" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="8485:8519" ph="/* GET: /Account/Manage ... */" />
+                <marker date="1474788816000" expanded="true" signature="8580:9168" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="9178:9213" ph="/* POST: /Account/Manage ... */" />
+                <marker date="1474788816000" expanded="true" signature="9341:11227" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="9532:10263" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="9586:10249" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="9794:10119" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="10144:10231" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="10280:11116" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="10510:10588" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="10629:11102" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="10815:10972" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="10997:11084" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="11237:11279" ph="/* POST: /Account/ExternalLogin ... */" />
+                <marker date="1474788816000" expanded="true" signature="11435:11649" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="11659:11708" ph="/* GET: /Account/ExternalLoginCallback ... */" />
+                <marker date="1474788816000" expanded="true" signature="11813:12758" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="11943:12021" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="12219:12360" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="12377:12748" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="12768:12806" ph="/* POST: /Account/LinkLogin ... */" />
+                <marker date="1474788816000" expanded="true" signature="12915:13158" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="13168:13213" ph="/* GET: /Account/LinkLoginCallback ... */" />
+                <marker date="1474788816000" expanded="true" signature="13273:13881" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="13437:13557" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="13704:13783" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="13891:13945" ph="/* POST: /Account/ExternalLoginConfirmation ... */" />
+                <marker date="1474788816000" expanded="true" signature="14150:15985" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="14207:14286" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="14323:15899" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="14542:14635" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="14848:15850" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="14991:15832" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="15133:15726" ph="/* For more information on how to enable account confirmation and password reset please visit http://go.microsoft ... */" />
+                <marker date="1474788816000" expanded="true" signature="15995:16030" ph="/* POST: /Account/LogOff ... */" />
+                <marker date="1474788816000" expanded="true" signature="16121:16240" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="16250:16298" ph="/* GET: /Account/ExternalLoginFailure ... */" />
+                <marker date="1474788816000" expanded="true" signature="16374:16421" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="16496:16768" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="16825:17035" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="16885:16988" ph="{...}" />
+                <marker date="1474788816000" expanded="false" signature="17045:19943" ph="Helpers" />
+                <marker date="1474788816000" expanded="true" signature="17235:17367" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="17261:17357" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="17448:17711" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="17766:17916" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="17825:17906" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="17952:18178" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="18064:18142" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="18276:18403" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="18440:18577" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="18641:18879" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="18694:18766" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="18783:18869" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="18943:19924" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="19061:19089" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="19177:19323" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="19552:19914" ph="{...}" />
+                <marker date="1474788816000" expanded="true" signature="19697:19794" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/RescaleImageTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+              <folding>
+                <marker date="1539622021885" expanded="false" signature="6:202" ph="..." />
+                <marker date="1539622021885" expanded="true" signature="252:308" ph="/// Image rescaling ... " />
+                <marker date="1539622021885" expanded="true" signature="350:1813" ph="{...}" />
+                <marker date="1539622021885" expanded="true" signature="382:929" ph="{...}" />
+                <marker date="1539622021885" expanded="true" signature="405:653" ph="/* TODO: ... */" />
+                <marker date="1539622021885" expanded="true" signature="1009:1300" ph="{...}" />
+                <marker date="1539622021885" expanded="true" signature="1339:1807" ph="{...}" />
+                <marker date="1539622021885" expanded="true" signature="1407:1797" ph="{...}" />
+                <marker date="1539622021885" expanded="true" signature="1576:1783" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/Asset.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <marker date="1539634053446" expanded="true" signature="88:901" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/CsvProcessingTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding>
+                <marker date="1539621852309" expanded="true" signature="6:154" ph="..." />
+                <marker date="1539621852309" expanded="true" signature="204:264" ph="/// CSV processing test ... " />
+                <marker date="1539621852309" expanded="true" signature="307:977" ph="{...}" />
+                <marker date="1539621852309" expanded="true" signature="339:971" ph="{...}" />
+                <marker date="1539621852309" expanded="true" signature="362:683" ph="/* TODO: ... */" />
+                <marker date="1539621852309" expanded="true" signature="1010:1550" ph="{...}" />
+                <marker date="1539621852309" expanded="true" signature="1025:1092" ph="/// Return all assets. ... " />
+                <marker date="1539621852309" expanded="true" signature="1147:1544" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/XmlReadingTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+              <folding>
+                <marker date="1539618080295" expanded="false" signature="6:230" ph="..." />
+                <marker date="1539618080295" expanded="true" signature="280:345" ph="/// This test evaluates the  ... " />
+                <marker date="1539618080295" expanded="true" signature="385:2708" ph="{...}" />
+                <marker date="1539618080295" expanded="true" signature="418:485" ph="{...}" />
+                <marker date="1539618080295" expanded="true" signature="512:1152" ph="{...}" />
+                <marker date="1539618080295" expanded="true" signature="535:928" ph="/* TODO: ... */" />
+                <marker date="1539618080295" expanded="true" signature="1207:2170" ph="{...}" />
+                <marker date="1539618080295" expanded="true" signature="1975:2113" ph="{...}" />
+                <marker date="1539618080295" expanded="true" signature="2224:2702" ph="{...}" />
+                <marker date="1539618080295" expanded="true" signature="2563:2663" ph="{...}" />
+                <marker date="1539618080295" expanded="true" signature="2767:2867" ph="{...}" />
+                <marker date="1539618080295" expanded="true" signature="2904:3061" ph="{...}" />
+                <marker date="1539618080295" expanded="true" signature="3092:3221" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tsconfig.ts</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/Asset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/XmlReadingTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/ITest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/MimeType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/StringTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/Country.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/CsvProcessingTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebExperience.Test/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebExperience.Test/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebExperience.Test/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebExperience.Test/Controllers/AssetController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebExperience.Test/Infrastructure/AssetDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebExperience.Test/Infrastructure/IAssetRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38C94DDE-2C5E-44AC-BCDB-DDA2D9F231CC/8a/211a3ee4/Path.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebExperience.Test/Infrastructure/AssetRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35675A10-9401-4F3A-B7AE-67839B7190D0/b2/5c6263f5/XmlElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebExperience.Test/Models/AssetDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/RescaleImageTest.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebExperience.Test/AssetsController.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Model/Country.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Model/MimeType.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Model/Asset.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Infrastructure/CSVReader.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Infrastructure/AssetRepository.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/XmlReadingTest.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Infrastructure/IAssetRepository.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Infrastructure/AssetCSVReader.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/AssetRepository.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/IRepository.cs" />
+        <option value="$PROJECT_DIR$/WebExperience.Test/Infrastructure/AssetDbContext.cs" />
+        <option value="$PROJECT_DIR$/WebExperience.Test/Models/AssetDto.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/MimeType.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/Country.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/IAssetRepository.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/ICSVReader.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/CSVReader.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/AssetCSVReader.cs" />
+        <option value="$PROJECT_DIR$/WebExperience.Test/Infrastructure/AssetRepository.cs" />
+        <option value="$PROJECT_DIR$/WebExperience.Test/Infrastructure/IAssetRepository.cs" />
+        <option value="$PROJECT_DIR$/WebExperience.Test/Global.asax.cs" />
+        <option value="$PROJECT_DIR$/WebExperience.Test/Controllers/AssetController.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/Asset.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/CsvProcessingTest.cs" />
+        <option value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/RescaleImageTest.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TechnicalAssessment" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TechnicalAssessment" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GeneralKnowledge.Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TechnicalAssessment" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WebExperience.Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ts.external.directory.path" value="C:\Users\Bartek\Desktop\Zadanie rek\go_assessment\WebExperience.Test\Client-App\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/bin/Debug/GeneralKnowledge.Test.App.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/GeneralKnowledge.Test.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <browser start="true" url="http://localhost:62677/" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bd9b0e0-af78-4d67-b061-7f6183c2783e" name="Default Changelist" comment="" />
+      <created>1539449116349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539449116349</updated>
+      <workItem from="1539449118904" duration="1789000" />
+      <workItem from="1539509478266" duration="2802000" />
+      <workItem from="1539577415452" duration="530000" />
+      <workItem from="1539611627990" duration="267000" />
+      <workItem from="1539611964108" duration="76000" />
+      <workItem from="1539612069746" duration="139000" />
+      <workItem from="1539612510455" duration="6149000" />
+      <workItem from="1539619618107" duration="3984000" />
+      <workItem from="1539640806496" duration="93000" />
+      <workItem from="1539698936189" duration="24000" />
+    </task>
+    <task id="LOCAL-00001" summary="as">
+      <created>1539577849049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539577849049</updated>
+    </task>
+    <task id="LOCAL-00002" summary="as">
+      <created>1539640856030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539640856030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15853000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22125813" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.28416485" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="REST Client" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="TypeScript" order="15" weight="0.329718" />
+      <window_info anchor="bottom" id="Build" order="16" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" visible="true" weight="0.036780383" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="REST Client" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="as" />
+    <option name="LAST_COMMIT_MESSAGE" value="as" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}\AssetImport.csv</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$@&quot;{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}\Resources\SamplePoints.xml&quot;</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/AssetsController.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Common.Domain/ValueObject.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Common.Domain/IEntity.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Common.Domain/IAggregateRoot.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Common.Domain/AggregateRoot.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Model/MimeType.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Model/Country.cs" />
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Client-App/e2e/src/app.e2e-spec.ts" />
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Client-App/e2e/src/app.po.ts" />
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Client-App/e2e/tsconfig.e2e.json" />
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Client-App/e2e/protractor.conf.js" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Asset.Domain.Model/Asset.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/ITest.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Resources/AssetImport.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35675A10-9401-4F3A-B7AE-67839B7190D0/b2/5c6263f5/XmlElement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Resources/SamplePoints.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Infrastructure/AssetDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/AssetRepository.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/IRepository.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/ICSVReader.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/CSVReader.cs" />
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Infrastructure/AssetCSVReader.cs" />
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Global.asax.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/MimeType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/Country.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/StringTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38C94DDE-2C5E-44AC-BCDB-DDA2D9F231CC/8a/211a3ee4/Path.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="239" column="48" lean-forward="true" selection-start-line="239" selection-start-column="48" selection-end-line="239" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Controllers/AssetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+          <folding>
+            <marker date="1539638073696" expanded="true" signature="6:27" ph="..." />
+            <marker date="1539638073696" expanded="true" signature="2398:2682" ph="{...}" />
+            <marker date="1539638073696" expanded="true" signature="2459:2676" ph="{...}" />
+            <marker date="1539638073696" expanded="true" signature="2527:2592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Infrastructure/AssetRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <marker date="1539638620425" expanded="true" signature="6:87" ph="..." />
+            <marker date="1539638620425" expanded="true" signature="2339:2429" ph="{...}" />
+            <marker date="1539638620425" expanded="true" signature="2339:2435" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Infrastructure/IAssetRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <marker date="1539621418625" expanded="true" signature="6:123" ph="..." />
+            <marker date="1539621418625" expanded="true" signature="168:426" ph="{...}" />
+            <marker date="1539621418625" expanded="true" signature="209:424" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1474788816000" expanded="true" signature="6:106" ph="..." />
+            <marker date="1474788816000" expanded="true" signature="195:582" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="237:284" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="321:437" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="476:576" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1474788816000" expanded="true" signature="6:362" ph="..." />
+            <marker date="1474788816000" expanded="true" signature="470:19949" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="565:585" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="655:714" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="766:1021" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="783:921" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="945:1011" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="1031:1064" ph="/* GET: /Account/Login ... */" />
+            <marker date="1474788816000" expanded="true" signature="1141:1231" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="1241:1275" ph="/* POST: /Account/Login ... */" />
+            <marker date="1474788816000" expanded="true" signature="1440:2038" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="1486:1927" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="1619:1773" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="1794:1913" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="2048:2084" ph="/* GET: /Account/Register ... */" />
+            <marker date="1474788816000" expanded="true" signature="2148:2195" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="2205:2242" ph="/* POST: /Account/Register ... */" />
+            <marker date="1474788816000" expanded="true" signature="2395:3707" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="2441:3596" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="2684:3486" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="2790:3405" ph="/* For more information on how to enable account confirmation and password reset please visit http://go.microsoft ... */" />
+            <marker date="1474788816000" expanded="true" signature="3507:3582" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="3717:3757" ph="/* GET: /Account/ConfirmEmail ... */" />
+            <marker date="1474788816000" expanded="true" signature="3863:4304" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="3922:3988" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="4110:4183" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="4200:4294" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="4314:4356" ph="/* GET: /Account/ForgotPassword ... */" />
+            <marker date="1474788816000" expanded="true" signature="4426:4473" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="4483:4526" ph="/* POST: /Account/ForgotPassword ... */" />
+            <marker date="1474788816000" expanded="true" signature="4691:5910" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="4737:5799" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="4915:5091" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="5109:5785" ph="/* For more information on how to enable account confirmation and password reset please visit http://go.microsoft ... */" />
+            <marker date="1474788816000" expanded="true" signature="5920:5974" ph="/* GET: /Account/ForgotPasswordConfirmation ... */" />
+            <marker date="1474788816000" expanded="true" signature="6056:6103" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="6114:6155" ph="/* GET: /Account/ResetPassword ... */" />
+            <marker date="1474788816000" expanded="true" signature="6235:6379" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="6276:6342" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="6389:6431" ph="/* POST: /Account/ResetPassword ... */" />
+            <marker date="1474788816000" expanded="true" signature="6594:7432" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="6640:7321" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="6763:6902" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="7055:7176" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="7197:7307" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="7442:7495" ph="/* GET: /Account/ResetPasswordConfirmation ... */" />
+            <marker date="1474788816000" expanded="true" signature="7576:7623" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="7633:7674" ph="/* POST: /Account/Disassociate ... */" />
+            <marker date="1474788816000" expanded="true" signature="7823:8475" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="8058:8297" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="8314:8391" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="8485:8519" ph="/* GET: /Account/Manage ... */" />
+            <marker date="1474788816000" expanded="true" signature="8580:9168" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="9178:9213" ph="/* POST: /Account/Manage ... */" />
+            <marker date="1474788816000" expanded="true" signature="9341:11227" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="9532:10263" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="9586:10249" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="9794:10119" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="10144:10231" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="10280:11116" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="10510:10588" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="10629:11102" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="10815:10972" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="10997:11084" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="11237:11279" ph="/* POST: /Account/ExternalLogin ... */" />
+            <marker date="1474788816000" expanded="true" signature="11435:11649" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="11659:11708" ph="/* GET: /Account/ExternalLoginCallback ... */" />
+            <marker date="1474788816000" expanded="true" signature="11813:12758" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="11943:12021" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="12219:12360" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="12377:12748" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="12768:12806" ph="/* POST: /Account/LinkLogin ... */" />
+            <marker date="1474788816000" expanded="true" signature="12915:13158" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="13168:13213" ph="/* GET: /Account/LinkLoginCallback ... */" />
+            <marker date="1474788816000" expanded="true" signature="13273:13881" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="13437:13557" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="13704:13783" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="13891:13945" ph="/* POST: /Account/ExternalLoginConfirmation ... */" />
+            <marker date="1474788816000" expanded="true" signature="14150:15985" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="14207:14286" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="14323:15899" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="14542:14635" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="14848:15850" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="14991:15832" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="15133:15726" ph="/* For more information on how to enable account confirmation and password reset please visit http://go.microsoft ... */" />
+            <marker date="1474788816000" expanded="true" signature="15995:16030" ph="/* POST: /Account/LogOff ... */" />
+            <marker date="1474788816000" expanded="true" signature="16121:16240" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="16250:16298" ph="/* GET: /Account/ExternalLoginFailure ... */" />
+            <marker date="1474788816000" expanded="true" signature="16374:16421" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="16496:16768" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="16825:17035" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="16885:16988" ph="{...}" />
+            <marker date="1474788816000" expanded="false" signature="17045:19943" ph="Helpers" />
+            <marker date="1474788816000" expanded="true" signature="17235:17367" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="17261:17357" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="17448:17711" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="17766:17916" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="17825:17906" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="17952:18178" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="18064:18142" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="18276:18403" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="18440:18577" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="18641:18879" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="18694:18766" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="18783:18869" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="18943:19924" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="19061:19089" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="19177:19323" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="19552:19914" ph="{...}" />
+            <marker date="1474788816000" expanded="true" signature="19697:19794" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/RescaleImageTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <marker date="1539622021885" expanded="false" signature="6:202" ph="..." />
+            <marker date="1539622021885" expanded="true" signature="252:308" ph="/// Image rescaling ... " />
+            <marker date="1539622021885" expanded="true" signature="350:1813" ph="{...}" />
+            <marker date="1539622021885" expanded="true" signature="382:929" ph="{...}" />
+            <marker date="1539622021885" expanded="true" signature="405:653" ph="/* TODO: ... */" />
+            <marker date="1539622021885" expanded="true" signature="1009:1300" ph="{...}" />
+            <marker date="1539622021885" expanded="true" signature="1339:1807" ph="{...}" />
+            <marker date="1539622021885" expanded="true" signature="1407:1797" ph="{...}" />
+            <marker date="1539622021885" expanded="true" signature="1576:1783" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Domain.Model/Asset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1539634053446" expanded="true" signature="88:901" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/CsvProcessingTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <marker date="1539621852309" expanded="true" signature="6:154" ph="..." />
+            <marker date="1539621852309" expanded="true" signature="204:264" ph="/// CSV processing test ... " />
+            <marker date="1539621852309" expanded="true" signature="307:977" ph="{...}" />
+            <marker date="1539621852309" expanded="true" signature="339:971" ph="{...}" />
+            <marker date="1539621852309" expanded="true" signature="362:683" ph="/* TODO: ... */" />
+            <marker date="1539621852309" expanded="true" signature="1010:1550" ph="{...}" />
+            <marker date="1539621852309" expanded="true" signature="1025:1092" ph="/// Return all assets. ... " />
+            <marker date="1539621852309" expanded="true" signature="1147:1544" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../go_assessment/GeneralKnowledge.Test/Tests/XmlReadingTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+          <folding>
+            <marker date="1539618080295" expanded="false" signature="6:230" ph="..." />
+            <marker date="1539618080295" expanded="true" signature="280:345" ph="/// This test evaluates the  ... " />
+            <marker date="1539618080295" expanded="true" signature="385:2708" ph="{...}" />
+            <marker date="1539618080295" expanded="true" signature="418:485" ph="{...}" />
+            <marker date="1539618080295" expanded="true" signature="512:1152" ph="{...}" />
+            <marker date="1539618080295" expanded="true" signature="535:928" ph="/* TODO: ... */" />
+            <marker date="1539618080295" expanded="true" signature="1207:2170" ph="{...}" />
+            <marker date="1539618080295" expanded="true" signature="1975:2113" ph="{...}" />
+            <marker date="1539618080295" expanded="true" signature="2224:2702" ph="{...}" />
+            <marker date="1539618080295" expanded="true" signature="2563:2663" ph="{...}" />
+            <marker date="1539618080295" expanded="true" signature="2767:2867" ph="{...}" />
+            <marker date="1539618080295" expanded="true" signature="2904:3061" ph="{...}" />
+            <marker date="1539618080295" expanded="true" signature="3092:3221" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebExperience.Test/Models/AssetDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <marker date="1539630960528" expanded="false" signature="6:104" ph="..." />
+            <marker date="1539630960528" expanded="true" signature="169:1005" ph="{...}" />
+            <marker date="1539630960528" expanded="true" signature="687:999" ph="{...}" />
+            <marker date="1539630960528" expanded="true" signature="973:988" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

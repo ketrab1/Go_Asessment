@@ -1,0 +1,50 @@
+<div class="row padding ">
+  <div class="col">
+    <div class="example-container">
+      <h1 class="text-center">Create new asset</h1>
+      <form class="example-form">
+        <div>
+          <mat-form-field class="full-width">
+            <input [(ngModel)]="asset.MimeType" matInput [ngModelOptions]="{standalone: true}" placeholder="Mime type"
+                   required value="">
+          </mat-form-field>
+        </div>
+
+        <div>
+          <mat-form-field class="full-width">
+            <input [(ngModel)]="asset.FileName" [ngModelOptions]="{standalone: true}" matInput placeholder="FileName"
+                   required value="">
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field class="full-width">
+            <input [(ngModel)]="asset.CreatedBy" [ngModelOptions]="{standalone: true}" matInput placeholder="CreatedBy"
+                   required value="">
+          </mat-form-field>
+
+        </div>
+        <div>
+          <mat-form-field class="full-width">
+            <input [(ngModel)]="asset.Country" matInput [ngModelOptions]="{standalone: true}" placeholder="Country"
+                   required value="">
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field class="full-width">
+            <input [(ngModel)]="asset.Email" matInput [ngModelOptions]="{standalone: true}" placeholder="Email" required
+                   value="">
+          </mat-form-field>
+        </div>
+        <div>
+        <mat-form-field class="full-width">
+          <input [(ngModel)]="asset.Description" matInput [ngModelOptions]="{standalone: true}"
+                 placeholder="Description" required value="">
+        </mat-form-field>
+        </div>
+        <button (click)="create()" type="submit" class="btn-margin btn btn-outline-primary">Add new</button>
+        <button (click)="goBack()" class="btn-margin btn btn-outline-info">Go back</button>
+      </form>
+    </div>
+
+  </div>
+</div>

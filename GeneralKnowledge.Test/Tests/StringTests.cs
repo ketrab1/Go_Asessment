@@ -34,8 +34,16 @@ namespace GeneralKnowledge.Test.App.Tests
 
         private void GetUniqueCharsAndCount()
         {
-            var word = "xxzwxzyzzyxwxzyxyzyxzyxzyzyxzzz";
-             
+            var dictionary = new Dictionary<char,int>();
+
+            var word = "xxzwxzyzzyxwxzyxyzyxzyxzyzyxzzz";   
+            var unique = String.Join("", word.Distinct());
+
+            foreach (var singleChar in unique)
+            {
+                dictionary.Add(singleChar,word.Count(x => x == singleChar));
+            }
+            
             // TODO:
             // Write an algoritm that gets the unique characters of the word below 
             // and counts the number of occurences for each character found
@@ -46,10 +54,7 @@ namespace GeneralKnowledge.Test.App.Tests
     {
         public static bool IsAnagram(this string a, string b)
         {
-            // TODO: 
-            // Write logic to determine whether a is an anagram of b
-
-            return false;
+            return a.OrderBy(x => x).SequenceEqual(b.OrderBy(x => x));
         }
     }
 }

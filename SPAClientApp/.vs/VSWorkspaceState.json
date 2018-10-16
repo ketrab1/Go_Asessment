@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\e2e",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\create-dialog",
+    "\\src\\app\\dashboard",
+    "\\src\\app\\detail",
+    "\\src\\app\\Model"
+  ],
+  "SelectedNode": "\\src\\app\\dashboard\\dashboard.component.ts",
+  "PreviewInSolutionExplorer": false
+}

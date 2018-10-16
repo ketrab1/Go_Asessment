@@ -1,0 +1,67 @@
+<div class="example-container shadow padding">
+  <h1 class="text-center">Details</h1>
+  <form class="example-form">
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Asset Id" [(ngModel)]=asset.AssetId [ngModelOptions]="{standalone: true}" disabled required value="">
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Mime type" [(ngModel)]=asset.MimeType [ngModelOptions]="{standalone: true}"
+               required value="">
+      </mat-form-field>
+    </div>
+
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="FileName" [(ngModel)]=asset.FileName [ngModelOptions]="{standalone: true}" required
+               value="">
+      </mat-form-field>
+    </div>
+
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="CreatedBy" [(ngModel)]=asset.CreatedBy [ngModelOptions]="{standalone: true}"
+               required value="">
+      </mat-form-field>
+    </div>
+
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Country" [(ngModel)]=asset.Country [ngModelOptions]="{standalone: true}" required
+               value="">
+      </mat-form-field>
+    </div>
+
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Email" [(ngModel)]=asset.Email [ngModelOptions]="{standalone: true}" required
+               value="">
+      </mat-form-field>
+    </div>
+
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Description" [(ngModel)]=asset.Description [ngModelOptions]="{standalone: true}"
+               required value="">
+      </mat-form-field>
+    </div>
+
+    <div class="button-row btn-margin text-center">
+      <button (click)="save()" type="submit" class="btn-margin btn btn-outline-primary">Save</button>
+      <button (click)="goBack()" class="btn-margin btn btn-outline-info">Go back</button>
+      <button (click)="delete()" class="btn-margin btn btn-outline-danger">Delete</button>
+    </div>
+  </form>
+
+
+</div>
+

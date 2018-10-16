@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -11,11 +11,14 @@ namespace WebExperience.Test.Infrastructure
     {
         public AssetDbContext()
         {
+          
         }
 
         public DbSet<Asset> Assets { get; set; }
+        public DbSet<Country> Countries { get; set; }
+        public DbSet<MimeType> MieMimeTypes { get; set; }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // Configure StudentId as FK for StudentAddress
             modelBuilder.Entity<Asset>()
@@ -27,4 +30,13 @@ namespace WebExperience.Test.Infrastructure
 
         }
     }
+
+  internal sealed class DataContextConfiguration : System.Data.Entity.Migrations.DbMigrationsConfiguration<AssetDbContext>
+  {
+    public DataContextConfiguration()
+    {
+      AutomaticMigrationsEnabled = true;
+
+    }
+  }
 }

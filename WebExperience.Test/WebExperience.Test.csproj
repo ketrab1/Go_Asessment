@@ -211,6 +211,10 @@
     <Compile Include="Migrations\201810151805506_relations.Designer.cs">
       <DependentUpon>201810151805506_relations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810161801190_addedContext.cs" />
+    <Compile Include="Migrations\201810161801190_addedContext.Designer.cs">
+      <DependentUpon>201810161801190_addedContext.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AssetDto.cs" />
@@ -298,6 +302,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810151805506_relations.resx">
       <DependentUpon>201810151805506_relations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810161801190_addedContext.resx">
+      <DependentUpon>201810161801190_addedContext.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

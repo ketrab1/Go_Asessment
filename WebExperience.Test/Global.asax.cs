@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+using System.Linq;
+using System.Reflection;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -15,6 +16,7 @@ namespace WebExperience.Test
     {
         protected void Application_Start()
         {
+     
             AutoMapperConfig.Initialize();
             ConfigureContainer();
             AreaRegistration.RegisterAllAreas();
@@ -23,8 +25,11 @@ namespace WebExperience.Test
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             GlobalConfiguration.Configuration.EnsureInitialized();
+           
 
         }
+
+    
 
         private void ConfigureContainer()
         {

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -31,77 +31,77 @@ namespace WebExperience.Test.Controllers
 
         // GET: Assets
         [System.Web.Http.HttpGet]
-        public async Task<IHttpActionResult> Index()
+        public async Task<HttpResponseMessage> Index()
         {
             var data = await _repository.GetAssets();
             if (data == null)
-                BadRequest();
+            return Request.CreateResponse(HttpStatusCode.BadRequest);
 
             var dto = data.Select(Mapper.Map<AssetDto>);
 
-            return Ok(JsonConvert.SerializeObject(dto));
+          return Request.CreateResponse(HttpStatusCode.OK, dto);
         }
 
         // GET: Assets/Details/5
         [System.Web.Http.HttpGet]
-        public async Task<IHttpActionResult> Details(Guid id)
+        public async Task<HttpResponseMessage> Details(Guid id)
         {
-            if (string.IsNullOrWhiteSpace(id.ToString()))
+            if (!Guid.TryParse(id.ToString(), out var _id))
             {
-                return BadRequest();
+            return Request.CreateResponse(HttpStatusCode.BadRequest, _id);
             }
 
             var data = await _repository.GetByIdAsync(id);
             if (data == null)
             {
-                return new NotFoundResult(this);
-            }
+                return Request.CreateResponse(HttpStatusCode.NoContent);
+      }
 
             var dto = Mapper.Map<Asset, AssetDto>(data);
 
-            return Ok(JsonConvert.SerializeObject(dto));
-        }
+          return Request.CreateResponse(HttpStatusCode.OK, dto);
+    }
 
        
-        [ValidateAntiForgeryToken]
+
         [System.Web.Http.HttpPost]
-        public async Task<IHttpActionResult> Create(
+        public async Task<HttpResponseMessage> Create(
             [FromBody] AssetDtoForCreation asset)
        {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                await _repository.CreateAsync(asset);
+              return Request.CreateResponse(HttpStatusCode.BadRequest);
             }
-
-            return Ok();
-        }
+             await _repository.CreateAsync(asset);
+             return Request.CreateResponse(HttpStatusCode.OK);
+       }
 
 
         [System.Web.Http.HttpPut]
-        [ValidateAntiForgeryToken]
-        public async Task<IHttpActionResult> Edit(
+        public async Task<HttpResponseMessage> Edit(
             [FromBody]
             AssetDto asset)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                await _repository.UpdateAsync(asset);
+              return Request.CreateResponse(HttpStatusCode.BadRequest);
+      
             }
-
-            return Ok();
-        }
+          await _repository.UpdateAsync(asset);
+          return Request.CreateResponse(HttpStatusCode.OK);
+       }
 
 
         [System.Web.Http.HttpDelete]
-        public async Task<IHttpActionResult> Delete(Guid id)
+        public async Task<HttpResponseMessage> Delete(Guid id)
         {
-            if (string.IsNullOrWhiteSpace(id.ToString()))
-            {
-                return BadRequest();
-            }
+          if (Guid.TryParse(id.ToString(), out var _id))
+          {
+            return Request.CreateResponse(HttpStatusCode.BadRequest, _id);
+          }
 
-            await _repository.DeletedAsync(id);
-            return Ok();
-        }
+          await _repository.DeletedAsync(id);
+            return Request.CreateResponse(HttpStatusCode.OK);
+    }
     }
 }
