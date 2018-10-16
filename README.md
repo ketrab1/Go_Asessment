@@ -1,19 +1,14 @@
 # Stylelabs.Recruitment Repository #
 
-This repository contains the technical assessment for the following profiles:
-dotNet developer
-web developer
-
-
 Update npm modules
-$ npm install 
+$ npm install in SPAClientApp
 
 
 run GeneralKnowledge.Test
 
 
 To run angular app 
-type in  SPAClientApp
+type in SPAClientApp
 $ ng serve --open
 
 
