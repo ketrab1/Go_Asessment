@@ -4,7 +4,7 @@ This repository contains the technical assessment for the following profiles:
 dotNet developer
 web developer
 
-####Inline code
+
 Update npm modules
 `$ npm install 
 
