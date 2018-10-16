@@ -14,7 +14,7 @@ run GeneralKnowledge.Test
 
 To run angular app 
 type in  SPAClientApp
-`$ ng server --oepn
+`$ ng server --open
 
 
 
